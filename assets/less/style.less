@@ -4,7 +4,45 @@
 // Base Styles
 @import 'slices/base.less';
 
+@color_lightGreen: #47d6c8;
 
-a {
-    color: red;
+
+p {
+	
+
+	font-family: "proxima-nova-alt", Times,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: black;
+	
+	a {
+		color: @color_lightGreen;
+		font-size: 20px;
+	}
+	
+	a:hover {
+		color: red;	
+	}
+	
+}
+
+h1, .h1 {
+	font-family: "proxima-nova-alt", Times ,sans-serif;
+    font-size: 50px;
+    text-align: left;
+    font-weight: 300;
+	
+	.foo1 {
+	
+		font-size: 100px;
+		
+	}
+	
+	.foo1:hover {
+		color: @color_lightGreen;	
+		
+	}
+	
 }

@@ -1,0 +1,33 @@
+/* Compiled Less CSS File */
+/* Generated from "style.css" */
+
+p {
+  font-family: "proxima-nova-alt", Times, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: black;
+}
+p a {
+  color: #47d6c8;
+  font-size: 20px;
+}
+p a:hover {
+  color: red;
+}
+h1,
+.h1 {
+  font-family: "proxima-nova-alt", Times, sans-serif;
+  font-size: 50px;
+  text-align: left;
+  font-weight: 300;
+}
+h1 .foo1,
+.h1 .foo1 {
+  font-size: 100px;
+}
+h1 .foo1:hover,
+.h1 .foo1:hover {
+  color: #47d6c8;
+}
